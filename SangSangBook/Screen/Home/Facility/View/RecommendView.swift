@@ -40,7 +40,7 @@ struct RecommendView: View {
         .padding(24)
         .background(.white)
         .cornerRadius(8)
-        //        .shadow(color: .gray.opacity(0.2), radius: 5, x: 0, y: 2)
+        .shadow(color: .gray.opacity(0.2), radius: 5, x: 0, y: 2)
     }
 }
 
