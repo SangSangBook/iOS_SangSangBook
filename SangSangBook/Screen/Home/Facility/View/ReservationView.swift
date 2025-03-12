@@ -84,6 +84,7 @@ struct ReservationCardView: View {
         .background(Color.white)
         .cornerRadius(8)
         .frame(maxWidth: .infinity)
+        .shadow(color: .gray.opacity(0.2), radius: 5, x: 0, y: 2)
     }
 }
 
