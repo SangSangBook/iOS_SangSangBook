@@ -9,7 +9,7 @@ import SwiftUI
 
 struct RecommendView: View {
     var body: some View {
-        VStack(alignment: .leading, spacing: 20) {
+        VStack(alignment: .leading) {
             Text("부기's Pick!")
                 .font(.system(size: 40, weight: .bold))
                 .foregroundStyle(Color(hex: "0B4DA1"))
@@ -25,7 +25,7 @@ struct RecommendView: View {
                     .scaledToFit()
                     .frame(width: 168, height: 168)
                 
-                VStack(alignment: .leading, spacing: 20) {
+                VStack(alignment: .leading) {
                     Text("# 콘센트 유무")
                         .font(.system(size: 16, weight: .semibold))
                         .foregroundStyle(Color(hex: "C7CED9"))
@@ -35,6 +35,7 @@ struct RecommendView: View {
                         .foregroundStyle(Color(hex: "C7CED9"))
                 }
             }
+            .padding(.top, 20)
         }
         .padding(24)
         .background(.white)
