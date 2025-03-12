@@ -11,7 +11,7 @@ import SwiftUI
 struct SangSangBookApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeViewController()
         }
     }
 }

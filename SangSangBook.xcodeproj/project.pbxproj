@@ -7,19 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B08B0922D813DDD0012FC23 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B08B0912D813DDD0012FC23 /* HomeViewController.swift */; };
+		7B08B0A22D8151300012FC23 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B08B0A12D8151300012FC23 /* HeaderView.swift */; };
+		7B08B0A42D8151500012FC23 /* RecommendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B08B0A32D8151500012FC23 /* RecommendView.swift */; };
+		7B08B0A62D8155F90012FC23 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B08B0A52D8155F90012FC23 /* Color+Extension.swift */; };
+		7B08B0A82D815F2E0012FC23 /* SegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B08B0A72D815F2E0012FC23 /* SegmentView.swift */; };
+		7B08B0B22D8161C00012FC23 /* FacilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B08B0B02D8161C00012FC23 /* FacilityViewController.swift */; };
+		7B08B0B72D8161CD0012FC23 /* EquipmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B08B0B52D8161CD0012FC23 /* EquipmentViewController.swift */; };
+		7B08B0BD2D8164780012FC23 /* ReservationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B08B0BC2D8164780012FC23 /* ReservationView.swift */; };
 		7B9AB0F02D803F84008E469E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B9AB0EA2D803F84008E469E /* Preview Assets.xcassets */; };
 		7B9AB0F12D803F84008E469E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B9AB0EC2D803F84008E469E /* Assets.xcassets */; };
-		7B9AB0F22D803F84008E469E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9AB0ED2D803F84008E469E /* ContentView.swift */; };
 		7B9AB0F32D803F84008E469E /* SangSangBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9AB0EE2D803F84008E469E /* SangSangBookApp.swift */; };
 		CB0E4CDD4B5C5D23533487B1 /* Pods_SangSangBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB78D3CA7AFBF444507B1AF /* Pods_SangSangBook.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		74140CE26A4F9AB1B59829BC /* Pods-SangSangBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SangSangBook.release.xcconfig"; path = "Target Support Files/Pods-SangSangBook/Pods-SangSangBook.release.xcconfig"; sourceTree = "<group>"; };
+		7B08B0912D813DDD0012FC23 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7B08B0A12D8151300012FC23 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		7B08B0A32D8151500012FC23 /* RecommendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendView.swift; sourceTree = "<group>"; };
+		7B08B0A52D8155F90012FC23 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		7B08B0A72D815F2E0012FC23 /* SegmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentView.swift; sourceTree = "<group>"; };
+		7B08B0B02D8161C00012FC23 /* FacilityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacilityViewController.swift; sourceTree = "<group>"; };
+		7B08B0B52D8161CD0012FC23 /* EquipmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentViewController.swift; sourceTree = "<group>"; };
+		7B08B0BC2D8164780012FC23 /* ReservationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationView.swift; sourceTree = "<group>"; };
 		7B9AB0D92D803F74008E469E /* SangSangBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SangSangBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B9AB0EA2D803F84008E469E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7B9AB0EC2D803F84008E469E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7B9AB0ED2D803F84008E469E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7B9AB0EE2D803F84008E469E /* SangSangBookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SangSangBookApp.swift; sourceTree = "<group>"; };
 		ACDA431392E59171DEEAD41D /* Pods-SangSangBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SangSangBook.debug.xcconfig"; path = "Target Support Files/Pods-SangSangBook/Pods-SangSangBook.debug.xcconfig"; sourceTree = "<group>"; };
 		DCB78D3CA7AFBF444507B1AF /* Pods_SangSangBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SangSangBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,6 +51,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B08B0902D813DCE0012FC23 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7B08B0912D813DDD0012FC23 /* HomeViewController.swift */,
+				7B08B0A72D815F2E0012FC23 /* SegmentView.swift */,
+				7B08B0B12D8161C00012FC23 /* Facility */,
+				7B08B0B62D8161CD0012FC23 /* Equipment */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7B08B0B12D8161C00012FC23 /* Facility */ = {
+			isa = PBXGroup;
+			children = (
+				7B08B0B82D8161ED0012FC23 /* ViewController */,
+				7B08B0B92D8161F30012FC23 /* View */,
+			);
+			path = Facility;
+			sourceTree = "<group>";
+		};
+		7B08B0B62D8161CD0012FC23 /* Equipment */ = {
+			isa = PBXGroup;
+			children = (
+				7B08B0BA2D8161FD0012FC23 /* ViewController */,
+				7B08B0BB2D8162030012FC23 /* View */,
+			);
+			path = Equipment;
+			sourceTree = "<group>";
+		};
+		7B08B0B82D8161ED0012FC23 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7B08B0B02D8161C00012FC23 /* FacilityViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		7B08B0B92D8161F30012FC23 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7B08B0A32D8151500012FC23 /* RecommendView.swift */,
+				7B08B0BC2D8164780012FC23 /* ReservationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7B08B0BA2D8161FD0012FC23 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7B08B0B52D8161CD0012FC23 /* EquipmentViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		7B08B0BB2D8162030012FC23 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		7B9AB0D02D803F74008E469E = {
 			isa = PBXGroup;
 			children = (
@@ -87,7 +162,7 @@
 		7B9AB39A2D803FB1008E469E /* Screen */ = {
 			isa = PBXGroup;
 			children = (
-				7B9AB0ED2D803F84008E469E /* ContentView.swift */,
+				7B08B0902D813DCE0012FC23 /* Home */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -95,6 +170,7 @@
 		7B9AB39B2D803FB7008E469E /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				7B08B0A52D8155F90012FC23 /* Color+Extension.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -102,6 +178,7 @@
 		7B9AB39C2D803FBB008E469E /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				7B08B0A12D8151300012FC23 /* HeaderView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -254,8 +331,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B9AB0F22D803F84008E469E /* ContentView.swift in Sources */,
+				7B08B0A62D8155F90012FC23 /* Color+Extension.swift in Sources */,
+				7B08B0BD2D8164780012FC23 /* ReservationView.swift in Sources */,
 				7B9AB0F32D803F84008E469E /* SangSangBookApp.swift in Sources */,
+				7B08B0922D813DDD0012FC23 /* HomeViewController.swift in Sources */,
+				7B08B0A82D815F2E0012FC23 /* SegmentView.swift in Sources */,
+				7B08B0B72D8161CD0012FC23 /* EquipmentViewController.swift in Sources */,
+				7B08B0B22D8161C00012FC23 /* FacilityViewController.swift in Sources */,
+				7B08B0A22D8151300012FC23 /* HeaderView.swift in Sources */,
+				7B08B0A42D8151500012FC23 /* RecommendView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
