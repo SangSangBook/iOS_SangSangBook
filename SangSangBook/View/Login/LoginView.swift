@@ -12,6 +12,11 @@ struct LoginView: View {
     @FocusState private var emailFieldIsFocused: Bool
     @FocusState private var passwordFieldIsFocused: Bool
     
+    // 로그인 버튼 활성화 여부
+    private var isLoginEnabled: Bool {
+        return !viewModel.email.isEmpty && !viewModel.password.isEmpty
+    }
+    
     var body: some View {
         NavigationView {
             ZStack {
@@ -85,12 +90,12 @@ struct LoginView: View {
                                 .font(.jalnan2(.regular, size: 30))
                                 .frame(maxWidth: .infinity)
                                 .padding(.vertical, 10)
-                                .background(Color(hex: "#0B4DA1"))
+                                .background(isLoginEnabled ? Color(hex: "#0B4DA1") : Color.gray)
                                 .foregroundColor(.white)
                                 .cornerRadius(5)
                         }
                         .padding(.horizontal, 60)
-                        .disabled(viewModel.isLoading)
+                        .disabled(!isLoginEnabled || viewModel.isLoading) // 입력이 안 되었거나 로딩 중이면 비활성화
                     }
                     
                     Spacer()

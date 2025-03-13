@@ -19,6 +19,7 @@
 		7B402F9A2D832362000B5905 /* GyeonggiTitleOTF_Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7B402F962D832362000B5905 /* GyeonggiTitleOTF_Light.otf */; };
 		7B402F9B2D832362000B5905 /* GyeonggiTitleOTF_Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7B402F952D832362000B5905 /* GyeonggiTitleOTF_Bold.otf */; };
 		7B402F9C2D832362000B5905 /* GyeonggiTitleOTF_Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7B402F982D832362000B5905 /* GyeonggiTitleOTF_Regular.otf */; };
+		7B402F9F2D8326E3000B5905 /* YoonDokrip.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7B402F9E2D8326E3000B5905 /* YoonDokrip.otf */; };
 		7B4C746C2D81AD4B00D8E5E0 /* ReserveOtherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4C746B2D81AD4A00D8E5E0 /* ReserveOtherView.swift */; };
 		7B4C746E2D81B09000D8E5E0 /* AdvertisementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4C746D2D81B09000D8E5E0 /* AdvertisementView.swift */; };
 		7B5389662D82E2D2007BD150 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5389652D82E2D2007BD150 /* LoginView.swift */; };
@@ -53,6 +54,7 @@
 		7B402F972D832362000B5905 /* GyeonggiTitleOTF_Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GyeonggiTitleOTF_Medium.otf; sourceTree = "<group>"; };
 		7B402F982D832362000B5905 /* GyeonggiTitleOTF_Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GyeonggiTitleOTF_Regular.otf; sourceTree = "<group>"; };
 		7B402F9D2D8324E4000B5905 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7B402F9E2D8326E3000B5905 /* YoonDokrip.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = YoonDokrip.otf; sourceTree = "<group>"; };
 		7B4C746B2D81AD4A00D8E5E0 /* ReserveOtherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReserveOtherView.swift; sourceTree = "<group>"; };
 		7B4C746D2D81B09000D8E5E0 /* AdvertisementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertisementView.swift; sourceTree = "<group>"; };
 		7B5389652D82E2D2007BD150 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				7B402F962D832362000B5905 /* GyeonggiTitleOTF_Light.otf */,
 				7B402F972D832362000B5905 /* GyeonggiTitleOTF_Medium.otf */,
 				7B402F982D832362000B5905 /* GyeonggiTitleOTF_Regular.otf */,
+				7B402F9E2D8326E3000B5905 /* YoonDokrip.otf */,
 			);
 			path = Font;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 				7B402CEE2D8321AA000B5905 /* Jalnan2.otf in Resources */,
 				7B9AB0F02D803F84008E469E /* Preview Assets.xcassets in Resources */,
 				7B402F992D832362000B5905 /* GyeonggiTitleOTF_Medium.otf in Resources */,
+				7B402F9F2D8326E3000B5905 /* YoonDokrip.otf in Resources */,
 				7B402F9A2D832362000B5905 /* GyeonggiTitleOTF_Light.otf in Resources */,
 				7B402F9B2D832362000B5905 /* GyeonggiTitleOTF_Bold.otf in Resources */,
 				7B402F9C2D832362000B5905 /* GyeonggiTitleOTF_Regular.otf in Resources */,

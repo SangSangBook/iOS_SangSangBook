@@ -20,6 +20,11 @@ extension Font {
         case medium = "GyeonggiTitleOTF_Medium"
         case regular = "GyeonggiTitleOTF_Regular"
     }
+    
+    // **YoonDokrip 폰트 스타일**
+    enum YoonDokripStyle: String {
+        case regular = "Jalnan2"
+    }
 
     // **Jalnan2 폰트 적용**
     static func jalnan2(_ type: Jalnan2Style, size: CGFloat) -> Font {
@@ -28,6 +33,11 @@ extension Font {
 
     // **GyeonggiTitleOTF 폰트 적용** -> .font(.ggTitle(.bold, size: 22)) 와 같이 사용
     static func ggTitle(_ type: GyeonggiTitleOTFStyle, size: CGFloat) -> Font {
+        return .custom(type.rawValue, size: size)
+    }
+    
+    // **YoonDokrip 폰트 적용**
+    static func yoonDokrip(_ type: YoonDokripStyle, size: CGFloat) -> Font {
         return .custom(type.rawValue, size: size)
     }
 }
