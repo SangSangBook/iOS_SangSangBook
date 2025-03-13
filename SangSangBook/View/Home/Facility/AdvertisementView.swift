@@ -17,10 +17,10 @@ struct AdvertisementView: View {
             
             VStack(alignment: .leading) {
                 Text("상상부기상북 상북어 상북스딱스 상부르크상부가우가 상비기상부거 상부가티상부기온앤온을 차려오거라.\n")
-                    .font(.system(size: 12, weight: .semibold))
+                    .font(.yoonDokrip(.regular, size: 15))
                 
                 Text("상상부기상북 상북어 상북스딱스 상부르크상부가우가 상비기상부거 상부가티상부기온앤온을 차려오거라.")
-                    .font(.system(size: 12, weight: .semibold))
+                    .font(.yoonDokrip(.regular, size: 15))
             }
         }
         .padding(.vertical, 10)

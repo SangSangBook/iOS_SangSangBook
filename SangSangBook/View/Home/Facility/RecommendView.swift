@@ -11,11 +11,11 @@ struct RecommendView: View {
     var body: some View {
         VStack(alignment: .leading) {
             Text("부기's Pick!")
-                .font(.system(size: 40, weight: .bold))
+                .font(.jalnan2(.regular, size: 40))
                 .foregroundStyle(Color(hex: "0B4DA1"))
             
             Text("AI를 이용해서 시설 추천을 받아보세요!")
-                .font(.system(size: 20, weight: .semibold))
+                .font(.jalnan2(.regular, size: 20))
                 .foregroundStyle(Color(hex: "C7CED9"))
                 .lineLimit(1)
             
@@ -27,11 +27,11 @@ struct RecommendView: View {
                 
                 VStack(alignment: .leading) {
                     Text("# 콘센트 유무")
-                        .font(.system(size: 16, weight: .semibold))
+                        .font(.jalnan2(.regular, size: 15))
                         .foregroundStyle(Color(hex: "C7CED9"))
                     
                     Text("# 방 크기")
-                        .font(.system(size: 16, weight: .semibold))
+                        .font(.jalnan2(.regular, size: 15))
                         .foregroundStyle(Color(hex: "C7CED9"))
                 }
             }
