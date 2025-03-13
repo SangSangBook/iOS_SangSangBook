@@ -15,7 +15,8 @@ struct FacilityView: View {
             ReservationView()
             ReserveOtherView()
             
-            AdvertisementView().padding(.horizontal, 24)
+            AdvertisementView()
+            Spacer()
         }
     }
 }

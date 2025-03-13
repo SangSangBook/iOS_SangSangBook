@@ -15,7 +15,7 @@ struct RecommendView: View {
                 .foregroundStyle(Color(hex: "0B4DA1"))
             
             Text("AI를 이용해서 시설 추천을 받아보세요!")
-                .font(.jalnan2(.regular, size: 20))
+                .font(.jalnan2(.regular, size: 16))
                 .foregroundStyle(Color(hex: "C7CED9"))
                 .lineLimit(1)
             
@@ -37,10 +37,12 @@ struct RecommendView: View {
             }
             .padding(.top, 20)
         }
-        .padding(24)
+        .padding(.vertical, 22)
+        .frame(maxWidth: .infinity)
         .background(.white)
         .cornerRadius(8)
         .shadow(color: .gray.opacity(0.2), radius: 5, x: 0, y: 2)
+        .padding(.horizontal, 24)
     }
 }
 
