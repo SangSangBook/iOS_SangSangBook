@@ -9,12 +9,18 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        VStack {
-            HeaderView()
-            
-            SegmentView()
+        NavigationView {
+            ZStack {
+                Color(hex: "F2F3F7") // 배경색 적용
+                    .edgesIgnoringSafeArea(.all) // 안전 영역 무시하여 전체 적용
+
+                VStack {
+                    HeaderView()
+                    SegmentView()
+                }
+            }
         }
-        .background(Color(hex: "F0F0F0"))
+        .navigationBarHidden(true)
     }
 }
 
