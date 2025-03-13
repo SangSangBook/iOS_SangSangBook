@@ -13,8 +13,9 @@ struct FacilityViewController: View {
             RecommendView()
             
             ReservationView()
-
-            Spacer()
+            ReserveOtherView()
+            
+            AdvertisementView().padding(.horizontal, 24)
         }
     }
 }
