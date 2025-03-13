@@ -1,13 +1,13 @@
 //
-//  EquipmentViewController.swift
+//  EquipmentView.swift
 //  SangSangBook
 //
-//  Created by KKM on 3/12/25.
+//  Created by KKM on 3/13/25.
 //
 
 import SwiftUI
 
-struct EquipmentViewController: View {
+struct EquipmentView: View {
     var body: some View {
         VStack {
             Text("기자재 목록")
@@ -18,5 +18,5 @@ struct EquipmentViewController: View {
 }
 
 #Preview {
-    EquipmentViewController()
+    EquipmentView()
 }

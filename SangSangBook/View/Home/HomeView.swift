@@ -1,23 +1,23 @@
 //
-//  HomeViewController.swift
+//  HomeView.swift
 //  SangSangBook
 //
-//  Created by KKM on 3/12/25.
+//  Created by KKM on 3/13/25.
 //
 
 import SwiftUI
 
-struct HomeViewController: View {
+struct HomeView: View {
     var body: some View {
         VStack {
             HeaderView()
             
-            SegmentView()            
+            SegmentView()
         }
         .background(Color(hex: "F0F0F0"))
     }
 }
 
 #Preview {
-    HomeViewController()
+    HomeView()
 }

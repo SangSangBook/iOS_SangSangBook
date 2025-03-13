@@ -20,10 +20,10 @@ struct SegmentView: View {
             
             // 화면 전환 뷰
             TabView(selection: $selectedTab) {
-                FacilityViewController()
+                FacilityView()
                     .tag("시설")
                 
-                EquipmentViewController()
+                EquipmentView()
                     .tag("기자재")
             }
             .tabViewStyle(.page(indexDisplayMode: .never)) // 인디케이터 제거
