@@ -16,6 +16,8 @@
 		7B4C746C2D81AD4B00D8E5E0 /* ReserveOtherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4C746B2D81AD4A00D8E5E0 /* ReserveOtherView.swift */; };
 		7B4C746E2D81B09000D8E5E0 /* AdvertisementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4C746D2D81B09000D8E5E0 /* AdvertisementView.swift */; };
 		7B5389662D82E2D2007BD150 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5389652D82E2D2007BD150 /* LoginView.swift */; };
+		7B5389682D82E41A007BD150 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5389672D82E41A007BD150 /* UserModel.swift */; };
+		7B53896A2D82E458007BD150 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5389692D82E458007BD150 /* LoginViewModel.swift */; };
 		7B9AB0F02D803F84008E469E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B9AB0EA2D803F84008E469E /* Preview Assets.xcassets */; };
 		7B9AB0F12D803F84008E469E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B9AB0EC2D803F84008E469E /* Assets.xcassets */; };
 		7B9AB0F32D803F84008E469E /* SangSangBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9AB0EE2D803F84008E469E /* SangSangBookApp.swift */; };
@@ -41,6 +43,8 @@
 		7B4C746B2D81AD4A00D8E5E0 /* ReserveOtherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReserveOtherView.swift; sourceTree = "<group>"; };
 		7B4C746D2D81B09000D8E5E0 /* AdvertisementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertisementView.swift; sourceTree = "<group>"; };
 		7B5389652D82E2D2007BD150 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		7B5389672D82E41A007BD150 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		7B5389692D82E458007BD150 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		7B9AB0D92D803F74008E469E /* SangSangBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SangSangBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B9AB0EA2D803F84008E469E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7B9AB0EC2D803F84008E469E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -170,6 +174,7 @@
 			children = (
 				7BC6DEF02D82D9FD00F822E4 /* FacilityModel.swift */,
 				7BC6DEF22D82DA0300F822E4 /* EquipmentModel.swift */,
+				7B5389672D82E41A007BD150 /* UserModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -180,6 +185,7 @@
 				7BC6DEF72D82DA1B00F822E4 /* HomeViewModel.swift */,
 				7BC6DEF92D82DA2700F822E4 /* FacilityViewModel.swift */,
 				7BC6DEFB2D82DA2D00F822E4 /* EquipmentViewModel.swift */,
+				7B5389692D82E458007BD150 /* LoginViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -350,6 +356,7 @@
 				7B08B0A62D8155F90012FC23 /* Color+Extension.swift in Sources */,
 				7B08B0BD2D8164780012FC23 /* ReservationView.swift in Sources */,
 				7B9AB0F32D803F84008E469E /* SangSangBookApp.swift in Sources */,
+				7B53896A2D82E458007BD150 /* LoginViewModel.swift in Sources */,
 				7BC6DF032D82DF5300F822E4 /* HomeView.swift in Sources */,
 				7BC6DF072D82DFBF00F822E4 /* EquipmentView.swift in Sources */,
 				7B08B0A82D815F2E0012FC23 /* SegmentView.swift in Sources */,
@@ -357,6 +364,7 @@
 				7B5389662D82E2D2007BD150 /* LoginView.swift in Sources */,
 				7BC6DEF32D82DA0300F822E4 /* EquipmentModel.swift in Sources */,
 				7B08B0A22D8151300012FC23 /* HeaderView.swift in Sources */,
+				7B5389682D82E41A007BD150 /* UserModel.swift in Sources */,
 				7BC6DEF82D82DA1B00F822E4 /* HomeViewModel.swift in Sources */,
 				7B08B0A42D8151500012FC23 /* RecommendView.swift in Sources */,
 				7BC6DF052D82DF9800F822E4 /* FacilityView.swift in Sources */,
