@@ -39,14 +39,14 @@ struct ReservationCardView: View {
             
             VStack(alignment: .leading) {
                 Text(title)
-                    .font(.system(size: 15, weight: .bold))
+                    .font(.jalnan2(.regular, size: 15))
                 
                 Spacer()
                     .frame(height: 20)
                 
                 ForEach(tags, id: \.self) { tag in
                     Text(tag)
-                        .font(.system(size: 8, weight: .semibold))
+                        .font(.jalnan2(.regular, size: 8))
                 }
             }
             .padding(.top, 11)

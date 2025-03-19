@@ -13,6 +13,13 @@
 		7B08B0A82D815F2E0012FC23 /* SegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B08B0A72D815F2E0012FC23 /* SegmentView.swift */; };
 		7B08B0BD2D8164780012FC23 /* ReservationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B08B0BC2D8164780012FC23 /* ReservationView.swift */; };
 		7B08B0BF2D81AC890012FC23 /* ReservationCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B08B0BE2D81AC880012FC23 /* ReservationCardView.swift */; };
+		7B402CEE2D8321AA000B5905 /* Jalnan2.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7B402CED2D8321AA000B5905 /* Jalnan2.otf */; };
+		7B402CF02D8321E0000B5905 /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B402CEF2D8321E0000B5905 /* Font+Extension.swift */; };
+		7B402F992D832362000B5905 /* GyeonggiTitleOTF_Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7B402F972D832362000B5905 /* GyeonggiTitleOTF_Medium.otf */; };
+		7B402F9A2D832362000B5905 /* GyeonggiTitleOTF_Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7B402F962D832362000B5905 /* GyeonggiTitleOTF_Light.otf */; };
+		7B402F9B2D832362000B5905 /* GyeonggiTitleOTF_Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7B402F952D832362000B5905 /* GyeonggiTitleOTF_Bold.otf */; };
+		7B402F9C2D832362000B5905 /* GyeonggiTitleOTF_Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7B402F982D832362000B5905 /* GyeonggiTitleOTF_Regular.otf */; };
+		7B402F9F2D8326E3000B5905 /* YoonDokrip.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7B402F9E2D8326E3000B5905 /* YoonDokrip.otf */; };
 		7B4C746C2D81AD4B00D8E5E0 /* ReserveOtherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4C746B2D81AD4A00D8E5E0 /* ReserveOtherView.swift */; };
 		7B4C746E2D81B09000D8E5E0 /* AdvertisementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4C746D2D81B09000D8E5E0 /* AdvertisementView.swift */; };
 		7B5389662D82E2D2007BD150 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5389652D82E2D2007BD150 /* LoginView.swift */; };
@@ -40,6 +47,14 @@
 		7B08B0A72D815F2E0012FC23 /* SegmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentView.swift; sourceTree = "<group>"; };
 		7B08B0BC2D8164780012FC23 /* ReservationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationView.swift; sourceTree = "<group>"; };
 		7B08B0BE2D81AC880012FC23 /* ReservationCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationCardView.swift; sourceTree = "<group>"; };
+		7B402CED2D8321AA000B5905 /* Jalnan2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Jalnan2.otf; sourceTree = "<group>"; };
+		7B402CEF2D8321E0000B5905 /* Font+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
+		7B402F952D832362000B5905 /* GyeonggiTitleOTF_Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GyeonggiTitleOTF_Bold.otf; sourceTree = "<group>"; };
+		7B402F962D832362000B5905 /* GyeonggiTitleOTF_Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GyeonggiTitleOTF_Light.otf; sourceTree = "<group>"; };
+		7B402F972D832362000B5905 /* GyeonggiTitleOTF_Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GyeonggiTitleOTF_Medium.otf; sourceTree = "<group>"; };
+		7B402F982D832362000B5905 /* GyeonggiTitleOTF_Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GyeonggiTitleOTF_Regular.otf; sourceTree = "<group>"; };
+		7B402F9D2D8324E4000B5905 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7B402F9E2D8326E3000B5905 /* YoonDokrip.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = YoonDokrip.otf; sourceTree = "<group>"; };
 		7B4C746B2D81AD4A00D8E5E0 /* ReserveOtherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReserveOtherView.swift; sourceTree = "<group>"; };
 		7B4C746D2D81B09000D8E5E0 /* AdvertisementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertisementView.swift; sourceTree = "<group>"; };
 		7B5389652D82E2D2007BD150 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -104,6 +119,19 @@
 			path = Equipment;
 			sourceTree = "<group>";
 		};
+		7B402CEC2D832190000B5905 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				7B402CED2D8321AA000B5905 /* Jalnan2.otf */,
+				7B402F952D832362000B5905 /* GyeonggiTitleOTF_Bold.otf */,
+				7B402F962D832362000B5905 /* GyeonggiTitleOTF_Light.otf */,
+				7B402F972D832362000B5905 /* GyeonggiTitleOTF_Medium.otf */,
+				7B402F982D832362000B5905 /* GyeonggiTitleOTF_Regular.otf */,
+				7B402F9E2D8326E3000B5905 /* YoonDokrip.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		7B5389642D82E2C3007BD150 /* Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +161,7 @@
 		7B9AB0EF2D803F84008E469E /* SangSangBook */ = {
 			isa = PBXGroup;
 			children = (
+				7B402F9D2D8324E4000B5905 /* Info.plist */,
 				7B9AB39D2D803FC3008E469E /* App */,
 				7BC6DEEF2D82D9EF00F822E4 /* Model */,
 				7BC6DEF62D82DA1100F822E4 /* ViewModel */,
@@ -163,6 +192,7 @@
 		7B9AB39E2D804081008E469E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				7B402CEC2D832190000B5905 /* Font */,
 				7B9AB0EA2D803F84008E469E /* Preview Assets.xcassets */,
 				7B9AB0EC2D803F84008E469E /* Assets.xcassets */,
 			);
@@ -203,6 +233,7 @@
 			isa = PBXGroup;
 			children = (
 				7B08B0A52D8155F90012FC23 /* Color+Extension.swift */,
+				7B402CEF2D8321E0000B5905 /* Font+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -294,7 +325,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B402CEE2D8321AA000B5905 /* Jalnan2.otf in Resources */,
 				7B9AB0F02D803F84008E469E /* Preview Assets.xcassets in Resources */,
+				7B402F992D832362000B5905 /* GyeonggiTitleOTF_Medium.otf in Resources */,
+				7B402F9F2D8326E3000B5905 /* YoonDokrip.otf in Resources */,
+				7B402F9A2D832362000B5905 /* GyeonggiTitleOTF_Light.otf in Resources */,
+				7B402F9B2D832362000B5905 /* GyeonggiTitleOTF_Bold.otf in Resources */,
+				7B402F9C2D832362000B5905 /* GyeonggiTitleOTF_Regular.otf in Resources */,
 				7B9AB0F12D803F84008E469E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,6 +390,7 @@
 				7B4C746E2D81B09000D8E5E0 /* AdvertisementView.swift in Sources */,
 				7B4C746C2D81AD4B00D8E5E0 /* ReserveOtherView.swift in Sources */,
 				7BC6DEFA2D82DA2700F822E4 /* FacilityViewModel.swift in Sources */,
+				7B402CF02D8321E0000B5905 /* Font+Extension.swift in Sources */,
 				7B08B0A62D8155F90012FC23 /* Color+Extension.swift in Sources */,
 				7B08B0BD2D8164780012FC23 /* ReservationView.swift in Sources */,
 				7B9AB0F32D803F84008E469E /* SangSangBookApp.swift in Sources */,
@@ -505,6 +543,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SangSangBook/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -535,6 +574,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SangSangBook/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
