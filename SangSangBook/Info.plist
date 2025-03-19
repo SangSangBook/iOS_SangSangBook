@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Jalnan2.otf</string>
+		<string>GyeonggiTitleOTF_Bold.otf</string>
+		<string>GyeonggiTitleOTF_Light.otf</string>
+		<string>GyeonggiTitleOTF_Medium.otf</string>
+		<string>GyeonggiTitleOTF_Regular.otf</string>
+		<string>YoonDokrip.otf</string>
+	</array>
+</dict>
+</plist>
